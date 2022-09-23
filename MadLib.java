@@ -14,8 +14,9 @@ public class MadLib
     public static void main (String[] args)
     {
         System.out.println("Welcome to our Madlibs game!");
-        String madLib = "The boy went to the <noun>, <verb> with his friends, then walked home and ate <noun>.";
+        String madLib = "The boy went to the <place>, <verb> with his friends, then walked home and ate <noun>.";
         //String madLib = "I went to the animal <noun>, the <plural noun> and the <number> beasts were there.";
+        //String madLib = "My favorite thing to do is <verb> especially when my <noun> does it with me.";
         Scanner myObj = new Scanner(System.in);
 
         while (madLib.indexOf("<")!= -1)
